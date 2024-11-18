@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Mable's Restaurant</title>
+    <link rel="stylesheet" href="CSS/style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="icon">🍴 </span>
+                <span class="brand">Mable's Restaurant</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+            </ul>
+            <a href="book.html" class="book-button">Book a Table</a>
+        </nav>
+    </header>
+    <main class="menu-section">
+        <h1>Our Menu</h1>
+    
+        <!-- Menu item with image -->
+        <div class="menu-item">
+            <img src="Images/Waakye.jpg" alt="Waakye with Fish / Egg / Chicken and Shito" class="food-image">
+            <span class="food-name">Waakye with Fish / Egg / Chicken and Shito</span>
+            <span class="price">₵65</span>
+        </div>
+        <div class="menu-item">
+            <img src="Images/jollof.jpg" alt="Jollof Rice with Chicken" class="food-image">
+            <span class="food-name">Jollof Rice with Chicken and Shito</span>
+            <span class="price">₵60</span>
+        </div>
+        <div class="menu-item">
+            <img src="Images/rice.jpg" alt="Plain Rice with Stew and Chicken / Egg" class="food-image">
+            <span class="food-name">Plain Rice with Stew and Chicken / Egg</span>
+            <span class="price">₵65</span>
+        </div>
+        <div class="menu-item">
+            <img src="Images/banku.jpg" alt="Banku and Tilapia" class="food-image">
+            <span class="food-name">Banku with Shito and Tilapia</span>
+            <span class="price">₵70</span>
+        </div>
+        <div class="menu-item">
+            <img src="Images/fufu.jpg" alt="Fufu with Light Soup and Goat Meat" class="food-image">
+            <span class="food-name">Fufu with Light Soup and Goat Meat</span>
+            <span class="price">₵70</span>
+        </div>
+        <div class="menu-item">
+            <img src="Images/yam.jpg" alt="Yam and Fish / Chicken " class="food-image">
+            <span class="food-name">Yam and Fish / Chicken</span>
+            <span class="price">₵60</span>
+        </div>
+    </main>
+    
+    <footer>
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Please fill out the form below, and we'll get in touch as soon as possible.</p>
+        </section>
+
+        <div class="contact-form">
+            <p></p>
+            <form action="https://formspree.io/f/xvgoankz" method="POST">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <p>&copy; 2024 Mable's Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+ 
